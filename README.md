@@ -22,9 +22,13 @@ Monitors the performance and system health of your Kubernetes environment (BETA)
 
 If you are using http to connect to your Kubernetes API, set up a proxy to connect to the Kubernetes API server by using one of the following commands:
 
-kubectl proxy --port=8080 --address='0.0.0.0' --accept-hosts='^*$' (gives access to everything)
+Gives access to everything:
 
-kubectl proxy --port=8080 --address='0.0.0.0'--accept-hosts='^192\.168\.*' (gives access to only your network - recommended)
+```kubectl proxy --port=8080 --address='0.0.0.0' --accept-hosts='^*$'```
+
+Gives access to only your network (Recommended):
+
+```kubectl proxy --port=8080 --address='0.0.0.0'--accept-hosts='^192\.168\.*'```
 
 ![Setup Kubernetes for Monitoring](/docs/img/setup_kubernetes_for_monitoring.png?raw=true)
 
