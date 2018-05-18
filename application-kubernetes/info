@@ -1,0 +1,5 @@
+NAME=com.opsview.opspack.application_kubernetes
+VERSION=0.9
+ALIAS=Application - Kubernetes (BETA)
+DEPENDENCIES=
+OPSVIEW_MIN_VERSION=
