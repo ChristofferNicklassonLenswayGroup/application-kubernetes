@@ -2,6 +2,10 @@
 
 Kubernetes is an open-source system for automating deployment, scaling and management of containerised applications that was originally designed by Google.
 
+***Please note that these integrations have been made available as early release beta software and not officially supported for production use. These Beta releases are provided on an “as is” and “as available” basis. Opsview does not give any warranties, whether express or implied, as to the suitability or usability of these releases.***
+
+***Opsview will not be liable for any loss, whether such loss is direct, indirect, special or consequential, suffered by any party as a result of the use of any of these Beta releases***
+
 ## What You Can Monitor
 
 Monitors the performance and system health of your Kubernetes environment (BETA)
